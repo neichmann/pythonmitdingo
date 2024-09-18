@@ -14,10 +14,8 @@ if __name__ == "__main__":
     n = int(input("Gib eine Zahl ein: "))
     #Funktionsaufruf
     ergebnis = berechne_summe(n)
-    summenergebnis = berechne_summe(ergebnis)
-    print(f"Die Summe der Zahlen von 1 bis {n} ist: {summenergebnis}")
+    print(f"Die Summe der Zahlen von 1 bis {n} ist: {ergebnis}")
     for i in range(1, 6):
         print(i)
     name = str(input("Name: "))
     say_my_name(name)
-#lel
