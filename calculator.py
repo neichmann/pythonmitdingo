@@ -1,8 +1,6 @@
 # bau mir eine einfache taschenrechner funktionalität mit addieren und subtrahieren
 
 # Eingabe
-n = int(input("Gib eine Zahl ein: "))
-m = int(input("Gib eine weitere Zahl ein: "))
 
 #Funktionsaufruf
 def errechne_summe(n, m):
@@ -15,5 +13,7 @@ def errechne_differenz(n, m):
 
 #Funktionsaufruf
 if __name__ == "__main__":
+    n = int(input("Gib eine Zahl ein: "))
+    m = int(input("Gib eine weitere Zahl ein: "))
     print(errechne_summe(n, m))
     print(errechne_differenz(n, m))
